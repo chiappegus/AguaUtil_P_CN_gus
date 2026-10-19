@@ -1,0 +1,369 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+*.jpg
+
+AguaUtilDecadial/namelist_agua_util.txt
+MapasReserva/config.txt
+Seguimiento_PP_T/config_database.txt
+
+
+MapasReserva/output/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor  
+#  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
+#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+#  refer to https://docs.cursor.com/context/ignore-files
+
+
+0ResumenDepto/20260221/*.xlsx
+MapasControl/output/*
+AguaUtilDecadial/archivos_guia/*.xlsx
+0ResumenDepto/*
+
+AguaUtilDecadial/Decadales/*
+AguaUtilDecadial/ESTADISTICA2000-2020/mean/*
+AguaUtilDecadial/ESTADISTICA2000-2020/std/*
+AguaUtilDecadial/out/*
+azul_poligonos_completos.*
+AguaUtil_P_CN/Decadales/20260310/decadales*.txt
+AguaUtil_P_CN/salidas/out/P_CN_por_depto_20260301/*.xlsx
+AguaUtil_P_CN/Decadales/*
+AguaUtil_P_CN/salidas/out/*
+calc_hist/calc_depto/AguaUtil/HistDecadales/2000-2020/p/*.txt
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/AU_P_CN_20260601.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/P_CN_20260601.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/Tabla_P_CN_20260601.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/Tabla_P_CN_20260601.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/AU_P_CN_20260611.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/P_CN_20260611.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/Tabla_P_CN_20260611.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/Tabla_P_CN_20260611.zip
+MapasSemanales/datos/pais.geojson
+MapasSemanales/datos/paisPolygon.*
+MapasSemanales/datos/provinciaPolygon.*
+MapasSemanales/*/*.tif.aux.xml
+MapasSemanales/*/*.tif
+MapasSemanales/salida*/*.xlsx
+AguaUtil_P_CN/SALIDA_HISTORICOS/histdec*.txt
+calc_hist/calc_depto/HistDecadales/1980-2021_diarios/*.txt
+calc_hist/calc_depto/HistDecadales/1989_2021_HistDecadales/decadales_*.txt
+calc_hist/calc_depto/SALIDA_HISTORICOS/*.txt
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000101_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000111_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000121_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000201_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000211_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000221_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000301_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000311_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000321_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000401_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000411_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000421_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000501_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000511_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000521_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000601_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000611_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000621_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000701_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000711_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000721_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000801_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000811_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000821_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000901_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000911_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20000921_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001001_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001011_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001021_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001101_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001111_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001121_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001201_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001211_resumen_AU_mean.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001221_resumen_AU_mean.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/Anomalias_P_CN_20260611.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/Anomalias_P_CN_20260611.xlsx
+AguaUtil_P_CN/ESTADISTICA2000-2020/mean/PCN_20001221_resumen_AU_mean.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/Anomalias_P_CN_20260601.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/Anomalias_P_CN_20260601.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/Anomalias_P_CN_20260601.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260601/AU_P_CN_promedio_AA_20260601.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/Anomalias_P_CN_20260611.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260611/AU_P_CN_promedio_AA_20260611.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/Anomalias_P_CN_20260621.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/Anomalias_P_CN_20260621.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/Anomalias_P_CN_20260621.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/AU_P_CN_20260621.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/AU_P_CN_promedio_AA_20260621.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/P_CN_20260621.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/Tabla_P_CN_20260621.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260621/Tabla_P_CN_20260621.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/Anomalias_P_CN_20260701.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/Anomalias_P_CN_20260701.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/AU_P_CN_20260701.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/AU_P_CN_promedio_AA_20260701.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/P_CN_20260701.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/P_CN_20260701.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260701/Tabla_P_CN_20260701.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/Anomalias_P_CN_20260711.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/Anomalias_P_CN_20260711.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/AU_P_CN_20260711.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/AU_P_CN_promedio_AA_20260711.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/P_CN_20260711.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/P_CN_20260711.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260711/Tabla_P_CN_20260711.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/Anomalias_P_CN_20260721.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/Anomalias_P_CN_20260721.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/AU_P_CN_20260721.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/AU_P_CN_promedio_AA_20260721.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/P_CN_20260721.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/Tabla_P_CN_20260721.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260721/20260721CN.zip
+AguaUtil_P_CN/salidas/0ResumenDepto/20260801/Anomalias_P_CN_20260801.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260801/Anomalias_P_CN_20260801.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20260801/P_CN_20260801.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20260*/*
+timeslaps/AU_P_CN_*.jpeg
+timeslaps/timelapse_mapa.mp4
+MapasSemanales/salida20260826_20260901/AA_20260826_20260901.jpeg
+MapasSemanales/salida20260826_20260901/AEX_20260826_20260901.jpeg
+MapasSemanales/salida20260826_20260901/MAX_20260826_20260901.jpeg
+MapasSemanales/salida20260826_20260901/MIN_20260826_20260901.jpeg
+MapasSemanales/salida20260826_20260901/PP_20260826_20260901.jpeg
+MapasSemanales/salida20260826_20260901/TEX COMB_MINEX_MAXEX_20260826_20260901.jpeg
+Resize_Imagenes/Entrada/AA_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/AEX_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/MAX_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/MIN_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/PP_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/TEX_MINEX_MAXEX_20260824_20260830.jpeg
+Resize_Imagenes/Salida/AA_20260824_20260830.jpeg
+Resize_Imagenes/Salida/AEX_20260824_20260830.jpeg
+Resize_Imagenes/Salida/MAX_20260824_20260830.jpeg
+Resize_Imagenes/Salida/MIN_20260824_20260830.jpeg
+Resize_Imagenes/Salida/PP_20260824_20260830.jpeg
+Resize_Imagenes/Salida/TEX_MINEX_MAXEX_20260824_20260830.jpeg
+Resize_Imagenes/Entrada/AA_20260831_20260906.jpeg
+Resize_Imagenes/Entrada/AEX_20260831_20260906.jpeg
+Resize_Imagenes/Entrada/MAX_20260831_20260906.jpeg
+Resize_Imagenes/Entrada/MIN_20260831_20260906.jpeg
+Resize_Imagenes/Entrada/PP_20260831_20260906.jpeg
+Resize_Imagenes/Entrada/TEX_MINEX_MAXEX_20260831_20260906.jpeg
+Resize_Imagenes/Salida/AA_20260831_20260906.jpeg
+Resize_Imagenes/Salida/AEX_20260831_20260906.jpeg
+Resize_Imagenes/Salida/MAX_20260831_20260906.jpeg
+Resize_Imagenes/Salida/MIN_20260831_20260906.jpeg
+Resize_Imagenes/Salida/PP_20260831_20260906.jpeg
+Resize_Imagenes/Salida/TEX_MINEX_MAXEX_20260831_20260906.jpeg
+MapasSemanales/salida20260902_20260908/AA_20260902_20260908.jpeg
+MapasSemanales/salida20260902_20260908/AEX_20260902_20260908.jpeg
+MapasSemanales/salida20260902_20260908/MAX_20260902_20260908.jpeg
+MapasSemanales/salida20260902_20260908/MIN_20260902_20260908.jpeg
+MapasSemanales/salida20260902_20260908/PP_20260902_20260908.jpeg
+MapasSemanales/salida20260902_20260908/TEX COMB_MINEX_MAXEX_20260902_20260908.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/ultimo/AU_P_CN_DESVIO_AA_mof___.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/ultimo/AU_P_CN_DESVIO_AA_mof.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/ultimo/AU_P_CN_DESVIO_AA_mof2.jpeg
+MapasSemanales/salida20260909_20260915/AA_20260909_20260915.jpeg
+MapasSemanales/salida20260909_20260915/AEX_20260909_20260915.jpeg
+MapasSemanales/salida20260909_20260915/MAX_20260909_20260915.jpeg
+MapasSemanales/salida20260909_20260915/MIN_20260909_20260915.jpeg
+MapasSemanales/salida20260909_20260915/PP_20260909_20260915.jpeg
+MapasSemanales/salida20260909_20260915/TEX_MINEX_MAXEX_20260909_20260915.jpeg
+MapasSemanales/salida20260916_20260922/AA_20260916_20260922.jpeg
+MapasSemanales/salida20260916_20260922/AEX_20260916_20260922.jpeg
+MapasSemanales/salida20260916_20260922/MAX_20260916_20260922.jpeg
+MapasSemanales/salida20260916_20260922/MIN_20260916_20260922.jpeg
+MapasSemanales/salida20260916_20260922/PP_20260916_20260922.jpeg
+MapasSemanales/salida20260916_20260922/TEX COMB_MINEX_MAXEX_20260916_20260922.jpeg
+Resize_Imagenes/Entrada/AA_20260914_20260920_.jpeg
+Resize_Imagenes/Entrada/AEX_20260914_20260920_.jpeg
+Resize_Imagenes/Entrada/MAX_20260914_20260920_.jpeg
+Resize_Imagenes/Entrada/MIN_20260914_20260920_.jpeg
+Resize_Imagenes/Entrada/PP_20260914_20260920_.jpeg
+Resize_Imagenes/Entrada/TEX COMB_MINEX_MAXEX_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/AA_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/AEX_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/MAX_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/MIN_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/PP_20260914_20260920_.jpeg
+Resize_Imagenes/Salida/TEX COMB_MINEX_MAXEX_20260914_20260920_.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20261001/AAsd_AU_P-CN_20261001.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20261001/Anomalias_P_CN_20261001.gpkg
+AguaUtil_P_CN/salidas/0ResumenDepto/20261001/Anomalias_P_CN_20261001.xlsx
+AguaUtil_P_CN/salidas/0ResumenDepto/20261001/AU_P-CN_20261001.jpeg
+AguaUtil_P_CN/salidas/0ResumenDepto/20261001/Tabla_P_CN_20261001.xlsx

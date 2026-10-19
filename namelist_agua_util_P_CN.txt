@@ -1,0 +1,109 @@
+# ===========================================
+# NAMELIST COMPLETO PARA P/CN (para 0run_agua_util_P_CN_V2.py)
+# ===========================================
+
+# FECHA
+#Cambiar fecha: solo modificá deca = "YYYY-MM-DD"
+#deca = "2026-05-01"
+#deca = "2026-05-11"
+#deca = "2021-01-01"
+#deca = "2026-06-01"
+#deca = "2026-07-01"
+#deca = "2026-07-11"
+#deca = "2026-07-21"
+#deca = "2026-08-01"
+# ==> poner la misma fecha que en deca, ejemplo(para consultar) ==>deca_especial = "2026-07-01" ydeca = "2026-07-01"
+
+#deca = "2026-08-01"
+#deca_especial = "2026-08-01"
+
+deca = "2026-10-01"
+deca_especial = "2026-10-01"
+
+D:\ORA_proyectos\AguaUtil_P_CN\namelist_agua_util_P_CN.txt
+# CARPETAS PRINCIPALES
+# carpeta_ppal = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/salidas/"
+carpeta_ppal = "D:/ORA_proyectos/AguaUtil_P_CN/salidas/"
+
+# la carpeta mia con los balances del BHORA.
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260301/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260501/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260511/"
+#HISTORICO__carpeta_bal = "D:/ORA_proyectos/Scripts_ORA-main/calc_hist/calc_depto/AguaUtil/HistDecadales/2000-2020/p/"
+##C:\Users\gchiappe\Desktop\Ora\salida\AguaUtil\Balances
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260601/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260601/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260701/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260711/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260721/"
+#carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20260801/"
+carpeta_bal = "C:/Users/gchiappe/Desktop/Ora/salida/AguaUtil/Balances/20261001/"
+
+
+
+
+
+#Carteta donde queres ver lo generas.
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260310/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260501/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260511/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260601/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260601/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260701/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260711/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260721/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260801/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20260721/"
+#carpeta_deca = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Decadales/20261001/"
+carpeta_deca = "D:/ORA_proyectos/AguaUtil_P_CN/Decadales/20261001/"
+
+
+
+
+#carpeta_out = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/salidas/out/"
+#carpeta_out_final = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/salidas/0ResumenDepto/"
+
+carpeta_out = "D:/ORA_proyectos/AguaUtil_P_CN/salidas/out/"
+carpeta_out_final = "D:/ORA_proyectos/AguaUtil_P_CN/salidas/0ResumenDepto/"
+
+
+##para que escriba directamente en el qgis
+carpeta_out_Anomalias_P_CN_gpkg_QGIS ="D:/ORA_proyectos/Decadiales_-_AU_gus1/actual/"
+
+
+# ARCHIVOS GUIA
+archivo_centroides = "./archivos_guia/centroides_P_CN.xlsx"
+#archivo_pesos = "./archivos_guia/centroide_gus_marchi_mas.xlsx"
+archivo_pesos = "./archivos_guia/centroide_gus_todo_mas.xlsx"
+
+# RETICULOS (necesarios para el script aunque no los uses)
+carpeta_ret = "D:/ORA_proyectos/Scripts_ORA-main/AguaUtil_P_CN/Reticulas/"
+archivo_ret_50 = "Grilla50-CentroidesNuevos.csv"
+archivo_ret_500 = "Grilla500.csv"
+
+# SHAPEFILE
+#shapefile_loc = "D:/documentos/mariano_laburo/Convenios_mapas/QConsolidate_aca/MapasVigentes_3-4-2020/layers/PARTIDOS.gpkg"
+#shapefile_loc = "D:\documentos\mariano_laburo\Convenios_mapas\QConsolidate_aca\MapasVigentes_3-4-2020\layers\PARTIDOS.gpkg"
+
+shapefile_loc ="D:/ORA_proyectos/Decadiales_-_AU_gus1/layers/parti2.gpkg"
+
+
+
+
+# OPCIONES
+#si ya existen, comentá calcula_deca = "NO"
+calcula_deca = "SI"
+calculo_por = "departamento"
+
+#
+#AguaUtil_P_CN/
+#├── Decadales/20260310/           # Archivos decadales generados (1037 CN + 136 P)
+#├── salidas/
+#│   ├── out/
+#│   │   └── P_CN_por_depto_20260301/    # Excel por departamento
+#│   └── 0ResumenDepto/
+#│       └── 20260301/
+#│           ├── Tabla_P_CN_20260301.xlsx   # Tabla consolidada
+#│           └── P_CN_20260301.gpkg        # Shapefile final
+
+
